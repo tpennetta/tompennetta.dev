@@ -51,3 +51,9 @@ rm -rf app
 # copy your app over
 cp -R ../my-old-remix-app/app app
 ```
+
+### Raw Notes
+
+- Regarding: WebP image of my avatar image. This is a personal website and the image for avatar is not uploaded but pre-determined. So should it be hosted on a separate CDN, or bundled with the application through the Remix pipeline?
+- Regarding: Web fonts and custom fonts. How to install, reference, and load efficiently external font resources using Remix and Tailwind.
+- 

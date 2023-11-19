@@ -11,7 +11,7 @@ import styles from "./styles/app.css";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "TomPennetta.dev",
   viewport: "width=device-width,initial-scale=1",
 });
 
@@ -21,7 +21,7 @@ export function links() {
 
 export default function App() {
   return (
-    <html lang="en">
+    <html className="bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100" lang="en">
       <head>
         <Meta />
         <Links />
